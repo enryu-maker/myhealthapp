@@ -63,7 +63,7 @@ export default class Signup extends Component {
                   />
                 </View>
                 <View
-                  style={{ marginTop: '10%', alignSelf: 'center' }}>
+                  style={{ marginTop: '5%', alignSelf: 'center' }}>
                   <Text style={styles.heading_text}>Email</Text>
                   <TextInput
                     style={styles.input}
@@ -121,8 +121,9 @@ const styles = StyleSheet.create({
     padding: 10,
     fontSize: 18,
     alignSelf: 'flex-start',
-    fontWeight: '500',
-    color: 'black'
+    fontWeight: '400',
+    color: 'black',
+    
   },
   btn: {
     backgroundColor: '#6ddb90',
