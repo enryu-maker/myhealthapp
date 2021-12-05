@@ -147,7 +147,8 @@ const styles = StyleSheet.create({
     marginTop: 10,
     marginLeft: 15,
     fontSize: 18,
-    color: 'black'
+    color: 'black',
+    alignSelf:'flex-start'
   },
   btn: {
     backgroundColor: '#6ddb90',

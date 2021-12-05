@@ -55,7 +55,7 @@ export default class Signup extends Component {
             <ScrollView>
               <KeyboardAvoidingView behavior='position'>
 
-                <View style={{ marginTop: '15%', alignSelf: 'center' }}>
+                <View style={{ marginTop: '13%', alignSelf: 'center' }}>
                   <Image
                     style={{ height: 100, width: 280 ,justifyContent:'center'}}
                     resizeMode='contain'
