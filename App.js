@@ -15,6 +15,7 @@ import Calorie from './component/caclcomponent/calorie';
 import Bmiout from './component/caclcomponent/bmiout';
 import Macout from './component/caclcomponent/macout';
 import Calout from './component/caclcomponent/calout';
+import About from './component/About';
 import SplashScreen from 'react-native-splash-screen';
 
 import firebase from 'firebase/compat/app';
@@ -51,6 +52,7 @@ export default function App() {
           <Stack.Screen name="Bmiout" component={Bmiout}/>
           <Stack.Screen name="Macout" component={Macout}/>
           <Stack.Screen name="Calout" component={Calout}/>
+          <Stack.Screen name="About" component={About}/>
         </Stack.Navigator>
         </NavigationContainer>
       </SafeAreaView>

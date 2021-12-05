@@ -80,6 +80,12 @@ export default class Home extends Component {
                                 <Text style={styles.btn_text}>Accomplishment</Text>
                             </View>
                         </TouchableOpacity>
+                        <TouchableOpacity
+                            onPress={() => this.props.navigation.navigate('About')}>
+                            <View style={styles.btn2}>
+                                <Text style={styles.btn_text}>About</Text>
+                            </View>
+                        </TouchableOpacity>
 
                         
                         </View>
