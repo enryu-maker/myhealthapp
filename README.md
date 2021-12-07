@@ -1,5 +1,5 @@
 # myhealth
-<p>
+<p allign='center'>
    <img src="splash.png" width="250" title="Splash page">
   <img src="Login.png" width="250" title="Login page">
   <img src="signup.png" width="250" title="Signup page">
