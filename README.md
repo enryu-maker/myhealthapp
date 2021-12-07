@@ -14,11 +14,16 @@ appId: "##############",</br>
 measurementId: "##############"</br>
 
 Then we initialize the app suing the firebase function called initializeApp</br>
-if (!firebase.apps.length) {</br>
+<pre>
+    <code>
+        if (!firebase.apps.length) {</br>
  app = firebase.initializeApp(firebaseConfig)</br>
 } else {</br>
  app = firebase.app();</br>
 }</br>
+    </code>
+</pre>
+
 
 Here we check if the app is already connected or not if it is connected then run the already present app else clear the new app.</br>
 Basic pages consist of Login page and signup page and we added the splash screen using https://www.npmjs.com/package/react-native-splash-screen </br>
