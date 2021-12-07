@@ -53,9 +53,7 @@ import { NavigationContainer } from '@react-navigation/native';<br>
 
 
 For the purpose of navigation we call all the component i.e all the screens using the function NavigationContainer we created stacks of all the screen  and able to navigate between this pages<br>
-<pre>
-    <code>
-      ``` JavaScript
+``` JavaScript
       <NavigationContainer>
       <Stack.Navigator initialRouteName="Login" screenOptions={{headerShown:false}}>
          <Stack.Screen name="Login" component={Login} />
@@ -75,9 +73,6 @@ For the purpose of navigation we call all the component i.e all the screens usin
          <Stack.Screen name="Calout" component={Calout}/>
        </Stack.Navigator>
        </NavigationContainer>```
-       
-    </code>
-</pre>
 
 
 Now we can use this name in the format of this.props.navigation.navigate(‘name of page') and we can do navigation to all the pages available in Stack.Navigator.<br>
