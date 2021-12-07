@@ -5,8 +5,7 @@
 For the purpose of authentication we came up with the firebase so what is firebase? It is a google based platform that provides backend as a service.</br>
 How does authentication work?</br>
 After we created our project in firebase we used the authentication part of firebase and selected the email and password authentication. Firebase gives various important things to call such as </br>
-<pre>
-    <code>
+``` JavaScript
 apiKey: "##############",</br>
 authDomain: "##############",</br>
 projectId: "##############",</br>
@@ -14,20 +13,17 @@ storageBucket: "##############",</br>
 messagingSenderId: "526787424668",</br>
 appId: "##############",</br>
 measurementId: "##############"</br>
-    </code>
-</pre>
+```
 
 
 Then we initialize the app suing the firebase function called initializeApp</br>
-<pre>
-    <code>
+``` JavaScript
     if (!firebase.apps.length) {</br>
     app = firebase.initializeApp(firebaseConfig)</br>
     } else {</br>
     app = firebase.app();</br>
     }</br>
-    </code>
-</pre>
+```
 
 
 Here we check if the app is already connected or not if it is connected then run the already present app else clear the new app.</br>
@@ -44,12 +40,10 @@ Basic pages consist of Login page and signup page and we added the splash screen
 <p>
 <b>Navigation:</b><br>
 For the purpose of Navigation we used stackNavigator and navigation container both of them are react native module <br>
-<pre>
-    <code>
-import { createStackNavigator } from '@react-navigation/stack';<br>
-import { NavigationContainer } from '@react-navigation/native';<br>
-    </code>
-</pre>
+``` JavaScript
+    import { createStackNavigator } from '@react-navigation/stack';<br>
+    import { NavigationContainer } from '@react-navigation/native';<br>
+```
 
 
 For the purpose of navigation we call all the component i.e all the screens using the function NavigationContainer we created stacks of all the screen  and able to navigate between this pages<br>
@@ -72,8 +66,8 @@ For the purpose of navigation we call all the component i.e all the screens usin
          <Stack.Screen name="Macout" component={Macout}/>
          <Stack.Screen name="Calout" component={Calout}/>
        </Stack.Navigator>
-       </NavigationContainer>```
-
+       </NavigationContainer>
+```
 
 Now we can use this name in the format of this.props.navigation.navigate(‘name of page') and we can do navigation to all the pages available in Stack.Navigator.<br>
 <b>Step Counter:</b><br>
