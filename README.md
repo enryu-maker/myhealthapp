@@ -1,2 +1,2 @@
 # myhealth
-![Screenshot](Login.png)
+![myimage-alt-tag](Login.png)
