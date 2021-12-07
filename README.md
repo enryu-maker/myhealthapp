@@ -83,26 +83,26 @@ After learning about the module we came to know that it uses a sensor named the 
 In the BMI calculator, we took 3 inputs i.e Height (Feet and inches) and weight. Then we created the function named sum that calculates the BMI and gives the</br> condition if the user is underweight, overweight, Healthy or obese.</br>
 Formula used = 703*(weight/height2 )</br>
 ``` JavaScript
-    let bmi=703*(weight/height2 )</br>
+    let bmi=703*(weight/height2 )
 ```
 
 <b>Macro Calculator:</b><br>
 
 In the macro calculator, we took 5 different inputs like age, gender, height(Feet & inchs) and  weight. In order to find the different parameters such as fat,</br> carbohydrates etc we need to find calories first by using the formula</br>
 ``` JavaScript
-    protien = (calorie * 0.25) / 4 
-    carbohydtae = (calorie * 0.5) / 4 
-    fat = (calorie * 0.25) / 9 
-    sugar = (calorie / 4) - 10 
-    saturatedfat = (calorie / 4) - 5 
+   let protien = (calorie * 0.25) / 4 
+   let carbohydtae = (calorie * 0.5) / 4 
+   let fat = (calorie * 0.25) / 9 
+   let sugar = (calorie / 4) - 10 
+   let saturatedfat = (calorie / 4) - 5 
 ```
 <b>Calorie Calculator:</b><br>
 
 For the calorie calculator, we used only require 4 parameters age, gender, height(feet, inches) and weight.</br>
 Formula</br>
 ``` JavaScript
-    maleColorie=weight + height - age - 161
-    femaleColorie=weight + height - age - 5
+    let maleColorie=weight + height - age - 161
+    let femaleColorie=weight + height - age - 5
 ```
 
 </p>
