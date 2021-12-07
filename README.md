@@ -42,11 +42,12 @@ Basic pages consist of Login page and signup page and we added the splash screen
 <p>
 <b>Navigation:</b><br>
 For the purpose of Navigation we used stackNavigator and navigation container both of them are react native module <br>
-``` JavaScript
-    import { createStackNavigator } from '@react-navigation/stack';<br>
-    import { NavigationContainer } from '@react-navigation/native';<br>
-```
 
+``` JavaScript
+    import { createStackNavigator } from "@react-navigation/stack"
+    import { NavigationContainer } from "@react-navigation/native"
+
+```
 
 For the purpose of navigation we call all the component i.e all the screens using the function NavigationContainer we created stacks of all the screen  and able to navigate between this pages<br>
 ``` JavaScript
