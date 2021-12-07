@@ -1,6 +1,7 @@
 # myhealth
 <h2>Initial Pages</h2>
 <p><b>Authentication:</b><br>
+ 
 For the purpose of authentication we came up with the firebase so what is firebase? It is a google based platform that provides backend as a service.</br>
 How does authentication work?</br>
 After we created our project in firebase we used the authentication part of firebase and selected the email and password authentication. Firebase gives various important things to call such as </br>
@@ -65,9 +66,11 @@ import { startCounter, stopCounter } from 'react-native-accurate-step-counter';<
 After learning about the module we came to know that it uses a sensor named the pedometer present inside the phone which calculates the movement based on that <br>movements we get the value of steps that we moved.<br>
 <h3>Calculator</h3></br>
 <b>BMI Calculator:</b><br>
+
 In the BMI calculator, we took 3 inputs i.e Height (Feet and inches) and weight. Then we created the function named sum that calculates the BMI and gives the</br> condition if the user is underweight, overweight, Healthy or obese.</br>
 Formula used = 703*(weight/height2 )</br>
 <b>Macro Calculator:</b><br>
+
 In the macro calculator, we took 5 different inputs like age, gender, height(Feet & inchs) and  weight. In order to find the different parameters such as fat,</br> carbohydrates etc we need to find calories first by using the formula</br>
 protien = (calorie * 0.25) / 4 </br>
 carbohydtae = (calorie * 0.5) / 4 </br>
@@ -75,6 +78,7 @@ fat = (calorie * 0.25) / 9 </br>
 sugar = (calorie / 4) - 10 </br>
 saturatedfat = (calorie / 4) - 5 </br>
 <b>Calorie Calculator:</b><br>
+
 For the calorie calculator, we used only require 4 parameters age, gender, height(feet, inches) and weight.</br>
 Formula</br>
 maleColorie=weight + height - age - 161<br>
