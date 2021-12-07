@@ -1,25 +1,25 @@
 # myhealth
 <h2>Initial Pages</h2>
 <p><b>Authentication:</b>
-For the purpose of authentication we came up with the firebase so what is firebase? It is a google based platform that provides backend as a service. 
-How does authentication work?
-After we created our project in firebase we used the authentication part of firebase and selected the email and password authentication. Firebase gives various important things to call such as 
-apiKey: "##############",
-authDomain: "##############",
-projectId: "##############",
-storageBucket: "##############",
-messagingSenderId: "526787424668",
-appId: "##############",
-measurementId: "##############"
+For the purpose of authentication we came up with the firebase so what is firebase? It is a google based platform that provides backend as a service.</br>
+How does authentication work?</br>
+After we created our project in firebase we used the authentication part of firebase and selected the email and password authentication. Firebase gives various important things to call such as </br>
+apiKey: "##############",</br>
+authDomain: "##############",</br>
+projectId: "##############",</br>
+storageBucket: "##############",</br>
+messagingSenderId: "526787424668",</br>
+appId: "##############",</br>
+measurementId: "##############"</br>
 
-Then we initialize the app suing the firebase function called initializeApp
-if (!firebase.apps.length) {
- app = firebase.initializeApp(firebaseConfig)
-} else {
- app = firebase.app();
-}
+Then we initialize the app suing the firebase function called initializeApp</br>
+if (!firebase.apps.length) {</br>
+ app = firebase.initializeApp(firebaseConfig)</br>
+} else {</br>
+ app = firebase.app();</br>
+}</br>
 
-Here we check if the app is already connected or not if it is connected then run the already present app else clear the new app.
+Here we check if the app is already connected or not if it is connected then run the already present app else clear the new app.</br>
 </p>
 <p align='center'>
    <img src="splash.png" width="250" title="Splash page">
