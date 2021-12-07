@@ -29,6 +29,57 @@ Basic pages consist of Login page and signup page and we added the splash screen
   
  
 </p>
+<h2>Addition feature Pages</h2></br>
+<p>
+<b>Navigation:</b><br>
+For the purpose of Navigation we used stackNavigator and navigation container both of them are react native module <br>
+import { createStackNavigator } from '@react-navigation/stack';<br>
+import { NavigationContainer } from '@react-navigation/native';<br>
+
+For the purpose of navigation we call all the component i.e all the screens using the function NavigationContainer we created stacks of all the screen  and able to navigate between this pages<br>
+<NavigationContainer><br>
+       <Stack.Navigator initialRouteName="Login"<br>
+       screenOptions={{headerShown:false}}<br>
+        ><br>
+         <Stack.Screen name="Login" component={Login} /><br>
+         <Stack.Screen name="Signup" component={Signup} /><br>
+         <Stack.Screen name="Home" component={Home}/><br>
+         <Stack.Screen name="Calc" component={Calc}/><br>
+         <Stack.Screen name="Chart" component={Charts}/><br>
+         <Stack.Screen name="Step" component={Steps}/><br>
+         <Stack.Screen name="Accomplishment" component={Accomplishment}/><br>
+         <Stack.Screen name="Bmi" component={Bmi}/><br>
+         <Stack.Screen name="Macro" component={Macro}/><br>
+         <Stack.Screen name="Calorie" component={Calorie}/><br>
+         <Stack.Screen name="Bmiout" component={Bmiout}/><br>
+         <Stack.Screen name="Macout" component={Macout}/><br>
+         <Stack.Screen name="Calout" component={Calout}/><br>
+       </Stack.Navigator><br>
+       </NavigationContainer><br>
+
+Now we can use this name in the format of this.props.navigation.navigate(‘name of page') and we can do navigation to all the pages available in Stack.Navigator.<br>
+<b>Step Counter:</b><br>
+For this problem we used the module named <br>
+import { startCounter, stopCounter } from 'react-native-accurate-step-counter';<br>
+
+After learning about the module we came to know that it uses a sensor named the pedometer present inside the phone which calculates the movement based on that <br>movements we get the value of steps that we moved.<br>
+<h3>Calculator</h3></br>
+<b>BMI Calculator:</b><br>
+In the BMI calculator, we took 3 inputs i.e Height (Feet and inches) and weight. Then we created the function named sum that calculates the BMI and gives the</br> condition if the user is underweight, overweight, Healthy or obese.</br>
+Formula used = 703*(weight/height2 )</br>
+<b>Macro Calculator:</b><br>
+In the macro calculator, we took 5 different inputs like age, gender, height(Feet & inchs) and  weight. In order to find the different parameters such as fat,</br> carbohydrates etc we need to find calories first by using the formula</br>
+protien = (calorie * 0.25) / 4 </br>
+carbohydtae = (calorie * 0.5) / 4 </br>
+fat = (calorie * 0.25) / 9 </br>
+sugar = (calorie / 4) - 10 </br>
+saturatedfat = (calorie / 4) - 5 </br>
+<b>Calorie Calculator:</b><br>
+For the calorie calculator, we used only require 4 parameters age, gender, height(feet, inches) and weight.</br>
+Formula</br>
+maleColorie=weight + height - age - 161<br>
+femaleColorie=weight + height - age - 5<br>
+</p>
 <p align='center'>
   <img src="home.png" width="250" title="Home page">
   <img src="steps.png" width="250" title="Step page">
