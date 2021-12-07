@@ -1,6 +1,6 @@
 # myhealth
 <h2>Initial Pages</h2>
-<p><b>Authentication:</b>
+<p><b>Authentication:</b><br>
 For the purpose of authentication we came up with the firebase so what is firebase? It is a google based platform that provides backend as a service.</br>
 How does authentication work?</br>
 After we created our project in firebase we used the authentication part of firebase and selected the email and password authentication. Firebase gives various important things to call such as </br>
@@ -20,6 +20,7 @@ if (!firebase.apps.length) {</br>
 }</br>
 
 Here we check if the app is already connected or not if it is connected then run the already present app else clear the new app.</br>
+Basic pages consist of Login page and signup page and we added the splash screen using https://www.npmjs.com/package/react-native-splash-screen </br>
 </p>
 <p align='center'>
    <img src="splash.png" width="250" title="Splash page">
