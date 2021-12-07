@@ -55,24 +55,25 @@ import { NavigationContainer } from '@react-navigation/native';<br>
 For the purpose of navigation we call all the component i.e all the screens using the function NavigationContainer we created stacks of all the screen  and able to navigate between this pages<br>
 <pre>
     <code>
-       <NavigationContainer><br>
-       <Stack.Navigator initialRouteName="Login"<br>
-       screenOptions={{headerShown:false}}>
-         <Stack.Screen name="Login" component={Login} /><br>
-         <Stack.Screen name="Signup" component={Signup} /><br>
-         <Stack.Screen name="Home" component={Home}/><br>
-         <Stack.Screen name="Calc" component={Calc}/><br>
-         <Stack.Screen name="Chart" component={Charts}/><br>
-         <Stack.Screen name="Step" component={Steps}/><br>
-         <Stack.Screen name="Accomplishment" component={Accomplishment}/><br>
-         <Stack.Screen name="Bmi" component={Bmi}/><br>
-         <Stack.Screen name="Macro" component={Macro}/><br>
-         <Stack.Screen name="Calorie" component={Calorie}/><br>
-         <Stack.Screen name="Bmiout" component={Bmiout}/><br>
-         <Stack.Screen name="Macout" component={Macout}/><br>
-         <Stack.Screen name="Calout" component={Calout}/><br>
-       </Stack.Navigator><br>
-       </NavigationContainer><br>
+      <NavigationContainer>
+       <Stack.Navigator initialRouteName="Login" screenOptions={{headerShown:false}}>
+         <Stack.Screen name="Login" component={Login} />
+         <Stack.Screen name="Signup" component={Signup} />
+         <Stack.Screen name="Home" component={Home}/>
+         <Stack.Screen name="Clan" component={Clan}/>
+         <Stack.Screen name="Calc" component={Calc}/>
+         <Stack.Screen name="Friend" component={Friend}/>
+         <Stack.Screen name="Chart" component={Charts}/>
+         <Stack.Screen name="Step" component={Steps}/>
+         <Stack.Screen name="Accomplishment" component={Accomplishment}/>
+         <Stack.Screen name="Bmi" component={Bmi}/>
+         <Stack.Screen name="Macro" component={Macro}/>
+         <Stack.Screen name="Calorie" component={Calorie}/>
+         <Stack.Screen name="Bmiout" component={Bmiout}/>
+         <Stack.Screen name="Macout" component={Macout}/>
+         <Stack.Screen name="Calout" component={Calout}/>
+       </Stack.Navigator>
+       </NavigationContainer>
     </code>
 </pre>
 
