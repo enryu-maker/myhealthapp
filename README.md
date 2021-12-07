@@ -6,23 +6,25 @@ For the purpose of authentication we came up with the firebase so what is fireba
 How does authentication work?</br>
 After we created our project in firebase we used the authentication part of firebase and selected the email and password authentication. Firebase gives various important things to call such as </br>
 ``` JavaScript
-apiKey: "##############",</br>
-authDomain: "##############",</br>
-projectId: "##############",</br>
-storageBucket: "##############",</br>
-messagingSenderId: "526787424668",</br>
-appId: "##############",</br>
-measurementId: "##############"</br>
+config={
+        apiKey: "##############",
+        authDomain: "##############",
+        projectId: "##############",
+        storageBucket: "##############",
+        messagingSenderId: "526787424668",
+        appId: "##############",
+        measurementId: "##############"
+        }
 ```
 
 
 Then we initialize the app suing the firebase function called initializeApp</br>
 ``` JavaScript
-    if (!firebase.apps.length) {</br>
-    app = firebase.initializeApp(firebaseConfig)</br>
-    } else {</br>
-    app = firebase.app();</br>
-    }</br>
+    if (!firebase.apps.length) {
+    app = firebase.initializeApp(firebaseConfig)
+    } else {
+    app = firebase.app();
+    }
 ```
 
 
@@ -80,34 +82,28 @@ After learning about the module we came to know that it uses a sensor named the 
 
 In the BMI calculator, we took 3 inputs i.e Height (Feet and inches) and weight. Then we created the function named sum that calculates the BMI and gives the</br> condition if the user is underweight, overweight, Healthy or obese.</br>
 Formula used = 703*(weight/height2 )</br>
-<pre>
-    <code>
+``` JavaScript
     let bmi=703*(weight/height2 )</br>
-    </code>
-</pre>
+```
 
 <b>Macro Calculator:</b><br>
 
 In the macro calculator, we took 5 different inputs like age, gender, height(Feet & inchs) and  weight. In order to find the different parameters such as fat,</br> carbohydrates etc we need to find calories first by using the formula</br>
-<pre>
-    <code>
-    protien = (calorie * 0.25) / 4 </br>
-    carbohydtae = (calorie * 0.5) / 4 </br>
-    fat = (calorie * 0.25) / 9 </br>
-    sugar = (calorie / 4) - 10 </br>
+``` JavaScript
+    protien = (calorie * 0.25) / 4 
+    carbohydtae = (calorie * 0.5) / 4 
+    fat = (calorie * 0.25) / 9 
+    sugar = (calorie / 4) - 10 
     saturatedfat = (calorie / 4) - 5 
-    </code>
-</pre>
+```
 <b>Calorie Calculator:</b><br>
 
 For the calorie calculator, we used only require 4 parameters age, gender, height(feet, inches) and weight.</br>
 Formula</br>
-<pre>
-    <code>
-    maleColorie=weight + height - age - 161<br>
-    femaleColorie=weight + height - age - 5<br>
-    </code>
-</pre>
+``` JavaScript
+    maleColorie=weight + height - age - 161
+    femaleColorie=weight + height - age - 5
+```
 
 </p>
 <p align='center'>
