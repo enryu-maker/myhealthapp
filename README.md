@@ -1,6 +1,6 @@
 # myhealth
 <h2>Initial Pages</h2>
-<p>Authentication:
+<p><b>Authentication:</b>
 For the purpose of authentication we came up with the firebase so what is firebase? It is a google based platform that provides backend as a service. 
 How does authentication work?
 After we created our project in firebase we used the authentication part of firebase and selected the email and password authentication. Firebase gives various important things to call such as 
