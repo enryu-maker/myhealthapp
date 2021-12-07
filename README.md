@@ -72,10 +72,10 @@ For the purpose of navigation we call all the component i.e all the screens usin
          <Stack.Screen name="Macout" component={Macout}/><br>
          <Stack.Screen name="Calout" component={Calout}/><br>
        </Stack.Navigator><br>
-       </NavigationContainer><br
+       </NavigationContainer><br>
     </code>
 </pre>
->
+
 
 Now we can use this name in the format of this.props.navigation.navigate(‘name of page') and we can do navigation to all the pages available in Stack.Navigator.<br>
 <b>Step Counter:</b><br>
